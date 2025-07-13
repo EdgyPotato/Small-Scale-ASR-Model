@@ -3,9 +3,9 @@ This small scale transformer architecture of automated speech recognition model 
 
 # Prerequisites
 1. Python 3.12.9
-2. Install library
-    1. Change dataset if you need to
-4. Run `main.py` to start training
+2. Install required library (will include `requirements.txt` soon)
+    - **(Optional)** Change datasets if needed, currently only using LibriSpeech datasets.
+4. Run `main.py` to start training.
 5. Run `testing.py` to test trained model.
     - To use custom audio and transcript text, use `python testing.py -a {AUDIO_PATH} -t "Here is your transcript"`
 
